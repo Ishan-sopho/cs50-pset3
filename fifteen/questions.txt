@@ -1,0 +1,9 @@
+questions.txt
+
+Computer Science 50
+Problem Set
+
+0. the programme allows values of d from 3 to 9 both included. so the allowed dimensions are from 3x3 to 9x9 both included.
+1. the games board is implemented as a 2-dimensional array.
+2. a void function is used to great the user at the game's start. the function does not return anything but prints out the greeting.
+3. many functions will be implemented in the programme. such as greet, init, clear, draw, won.
