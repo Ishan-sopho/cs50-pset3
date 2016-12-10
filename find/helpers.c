@@ -16,7 +16,7 @@
  */
 bool search(int value, int values[], int n)
 {
-    int hi = n-1, lo =0, mid;
+    int hi = n-1, lo = 0, mid;
     
     // checking for negative needle
     
@@ -48,21 +48,3 @@ bool search(int value, int values[], int n)
 /**
  * Sorts array of n values.
  */
-void sort(int values[], int n)
-{
-    int copy;
-    for (int i = 1; i < n; i++)
-    {
-        for (int j = 0; j < n-i; j++)
-        {
-            if (values[j] > values[j+1])
-            {
-                // implementing bubble sort using copy as buffer variable
-                copy=values[j+1];
-                values[j+1]=values[j];
-                values[j]=copy;
-            }
-        }
-    }
-    return;
-}
